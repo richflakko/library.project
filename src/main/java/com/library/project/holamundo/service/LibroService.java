@@ -33,4 +33,4 @@ public class LibroService {
         libroRepository.eliminar(id); // [cite: 491]
         return "producto eliminado"; // [cite: 492]
     }
-}
+}   
