@@ -1,13 +1,11 @@
-package com.library.project.holamundo;
+package com.library.project.holamundo; // PAQUETE RAÍZ
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class HolamundoApplication {
-
-	public static void main(String[] args) {
-		SpringApplication.run(HolamundoApplication.class, args);
-	}
-
+    public static void main(String[] args) {
+        SpringApplication.run(HolamundoApplication.class, args);
+    }
 }
